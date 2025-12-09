@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "1a02b06eaa68b930",
+    "id": "274b74b75dc5ab04",
     "type": "split",
     "children": [
       {
-        "id": "c26d256a701fc32b",
+        "id": "e5df72f1d2afd237",
         "type": "tabs",
         "children": [
           {
-            "id": "aeedd4f874db2851",
+            "id": "d3863fec1ddaad0d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7571caaea4cdb3d2",
+    "id": "223c689989bca1cf",
     "type": "split",
     "children": [
       {
-        "id": "5b79bb7a9b1b22c6",
+        "id": "69c686950302e87c",
         "type": "tabs",
         "children": [
           {
-            "id": "7a08b81a5fe61493",
+            "id": "04ca2f4557d62686",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "3702cd4fa44cee45",
+            "id": "7f3fdbadba83a286",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "fb9742e6c302ea12",
+            "id": "734df619edd93920",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,23 +74,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 490.5
   },
   "right": {
-    "id": "fd733be49e6bc922",
+    "id": "de4180d86beacff3",
     "type": "split",
     "children": [
       {
-        "id": "ad025d3508102ff8",
+        "id": "84786395d13e24d1",
         "type": "tabs",
         "children": [
           {
-            "id": "13aff775bda3d6fc",
+            "id": "4af6c2b7d9bcbd76",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microcosm-Fractal-Spec-Model.md",
+                "file": "outputs/version-3/CONSTITUTION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,31 +100,31 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Microcosm-Fractal-Spec-Model"
+              "title": "Backlinks for CONSTITUTION"
             }
           },
           {
-            "id": "d3d4c294d4d2a03c",
+            "id": "584ae8759d8fcddc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Microcosm-Fractal-Spec-Model.md",
+                "file": "outputs/version-5/CHANGELOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Microcosm-Fractal-Spec-Model"
+              "title": "Outgoing links from CHANGELOG"
             }
           },
           {
-            "id": "80af0439c51d3bb5",
+            "id": "d9c151e78cfda5fa",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -133,7 +133,7 @@
             }
           },
           {
-            "id": "4597221d028215be",
+            "id": "ad9f53d5bb21d1d5",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,26 +147,26 @@
             }
           },
           {
-            "id": "347ce604805b3572",
+            "id": "9e8214f70e513052",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Microcosm-Fractal-Spec-Model.md",
+                "file": "lightspec/specs/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Microcosm-Fractal-Spec-Model"
+              "title": "Outline of README"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 256.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,42 +179,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "aeedd4f874db2851",
+  "active": "04ca2f4557d62686",
   "lastOpenFiles": [
-    "fractal-specs-v7/fractal-spec-guide.md",
-    "fractal-specs-v7/Spec-Template-v2.md.tmp.56133.1765226141810",
-    "fractal-specs-v7/folder-purity-lint-spec.md",
-    "fractal-specs-v7/folder-purity-lint-spec.md.tmp.56133.1765226071927",
-    "fractal-specs-v7/v7-improvements-plan.md",
-    "fractal-specs-v7/v7-improvements-plan.md.tmp.56133.1765225755984",
-    "fractal-specs-v7/v7-improvements-plan.md.tmp.56133.1765225755687",
-    "fractal-specs-v7/v7-improvements-plan.md.tmp.56133.1765225755445",
-    "fractal-specs-v7/commands/verify-design.md.tmp.56133.1765225664657",
-    "fractal-specs-v7/commands/verify-design.md.tmp.56133.1765225650418",
-    "fractal-specs-v7/commands/analyse-structure.md.tmp.56133.1765225643142",
-    "fractal-specs-v7/commands/verify-requirements.md.tmp.56133.1765225621855",
-    "fractal-specs-v7/v7-improvements-plan.md.tmp.56133.1765225500108",
-    "fractal-specs-v7/commands/analyse-structure.md",
-    "fractal-specs-v7/commands/verify-design.md",
-    "fractal-specs-v7/commands/verify-requirements.md",
-    "fractal-specs-v7/commands/create-plan.md",
-    "stolen-commands-RPI/iterate_plan.md",
-    "fractal-specs-v7/commands/research-code.md",
-    "fractal-specs-v7/research-code.md",
-    "research-code.md",
-    "archive/fractal-specs-0.2.md",
-    "archive/fractal-specs-0.1.md",
-    "stolen-commands-RPI/research_codebase.md",
-    "stolen-commands-RPI/implement_plan.md",
-    "stolen-commands-RPI/create_plan.md",
-    "archive/REQUIREMENTS-AND-DECISIONS.md",
-    "archive/FRACTAL SPEC v5.md",
-    "archive/fractal-specs-0.3.md",
-    "fractal-specs-v7/Spec-Template-v2.md",
-    "archive/fractal-specs-v6/TODO.md",
-    "fractal-specs-v6/analyse-structure.md",
-    "fractal-specs-v6/verify-requirements.md",
-    "fractal-specs-v7/Spec-Template-v1.md",
-    "archive/fractal-specs-v6/Fractal-Specs-Guide.md"
+    "Plan.md.md",
+    "future-enhancments/stolen-commands-RPI/research_codebase.md",
+    "future-enhancments/stolen-commands-RPI/iterate_plan.md",
+    "future-enhancments/stolen-commands-RPI/implement_plan.md",
+    "future-enhancments/stolen-commands-RPI/create_plan.md",
+    "future-enhancments/stolen-commands-RPI",
+    "future-enhancments/folder-purity-lint-spec.md",
+    "future-enhancments",
+    "fractal-spec/commands/verify-requirements.md",
+    "fractal-spec/commands/verify-design.md",
+    "fractal-spec/commands/session-close.md",
+    "fractal-spec/commands/research-code.md",
+    "fractal-spec/commands/create-plan.md",
+    "fractal-spec/commands/analyse-structure.md",
+    "fractal-spec/spec-template.md",
+    "fractal-spec/fractal-spec-guide.md",
+    "fractal-spec/commands",
+    "fractal-spec/README.md",
+    "fractal-spec",
+    "CLAUDE.md",
+    "lightspec/specs/SPEC-TEMPLATE.md",
+    "lightspec/specs/README.md",
+    "lightspec/constitution/DECISIONS.md",
+    "lightspec/constitution/CONSTITUTION.md",
+    "lightspec-development/requirements-and-decisions.md",
+    "lightspec-development/CONTEXT.md",
+    "lightspec/README.md",
+    "lightspec-v1.zip",
+    "zivNSviP",
+    "README.md",
+    "ROADMAP.md",
+    "EXTERNAL-REVIEW.md",
+    "lightspec-development",
+    "outputs/version-1/roadmap/ROADMAP.md.tmp.7966.1764926100248",
+    "outputs/version-1/constitution/CONSTITUTION.md.tmp.7966.1764926031016",
+    "outputs/version-1/technical/README.md.tmp.7966.1764925345667",
+    "Untitled.canvas"
   ]
 }
