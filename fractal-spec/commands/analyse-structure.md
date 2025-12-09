@@ -1,11 +1,11 @@
 # analyse-structure Command (Things & Components Tree Design)
-*A structured command for Claude to help design, review, and optimise the folder hierarchy for Fractal Specs.*
+*A structured command for Claude to help design, review, and optimise the folder hierarchy for Fractal Spec.*
 
 ---
 
 ## 🧠 Purpose
 
-This command is for analysing and shaping the **things & components tree** (folder structure) of a repo using the Fractal Specs model.
+This command is for analysing and shaping the **things & components tree** (folder structure) of a repo using the Fractal Spec model.
 
 Claude must help ensure that:
 
@@ -91,7 +91,7 @@ Do **not** suggest changes yet. First reflect what you see.
 
 ---
 
-## STEP 4 — Evaluate structure using Fractal Specs rules
+## STEP 4 — Evaluate structure using Fractal Spec rules
 
 For each major folder (thing):
 
@@ -179,7 +179,7 @@ If I agree to any changes:
 
 ---
 
-## STEP 7 — Keep everything aligned with Fractal Specs
+## STEP 7 — Keep everything aligned with Fractal Spec
 
 While analysing or proposing changes, Claude must:
 

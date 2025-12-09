@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document specifies the checks a linting tool must perform to enforce folder purity rules in Fractal Specs v7 projects. The tool validates that each folder adheres to the strict anatomical constraints defined in the Fractal Spec Guide.
+This document specifies the checks a linting tool must perform to enforce folder purity rules in Fractal Spec projects. The tool validates that each folder adheres to the strict anatomical constraints defined in the Fractal Spec Guide.
 
 ## Core Purity Rule
 
@@ -248,8 +248,8 @@ Suggested flags for the tool:
 
 ### Detection Heuristics
 
-1. **Root folder identification**: The tool should identify the root of the Fractal Specs tree, possibly by:
-   - Looking for a `.fractal-specs` marker file
+1. **Root folder identification**: The tool should identify the root of the Fractal Spec tree, possibly by:
+   - Looking for a `.fractal-spec` marker file
    - Command-line argument specifying the root
    - Scanning upward from current directory
 
@@ -286,6 +286,6 @@ Future enhancements could include:
 
 ## References
 
-- Fractal Spec Guide v7 - Section 4 (Folder Purity)
-- Fractal Spec Guide v7 - Section 2 (Anatomy of Every Folder)
-- Fractal Spec Guide v7 - Section 3 (What Goes Where)
+- Fractal Spec Guide - Section 4 (Folder Purity)
+- Fractal Spec Guide - Section 2 (Anatomy of Every Folder)
+- Fractal Spec Guide - Section 3 (What Goes Where)

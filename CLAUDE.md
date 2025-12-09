@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a **documentation-only repository** defining Fractal Specs v7 — a compositional, recursive documentation model for humans and LLMs. There is no code to build, test, or run. The repository *is* the specification itself.
+This is a **documentation-only repository** defining Fractal Spec — a compositional, recursive documentation model for humans and LLMs. There is no code to build, test, or run. The repository *is* the specification itself.
 
 ---
 
@@ -24,9 +24,8 @@ This is a **documentation-only repository** defining Fractal Specs v7 — a comp
 
 **CRITICAL**: Before doing any work in this repository, read these files in order:
 
-1. **`fractal-specs-v7/.fractal-specs-version`** — Confirms you're working with v7 rules
-2. **`fractal-specs-v7/fractal-spec-guide.md`** — Complete specification (sections 1-9 are LLM-focused, terse and token-optimized)
-3. **`AGENTS.md`** — Repository-specific agent behavior guidelines
+1. **`fractal-spec/fractal-spec-guide.md`** — Complete specification (version recorded in frontmatter; sections 1-9 are LLM-focused, terse and token-optimized)
+2. **`AGENTS.md`** — Repository-specific agent behavior guidelines
 
 Do not skip this. The guide defines the entire fractal model you'll be working within.
 
@@ -37,20 +36,14 @@ Do not skip this. The guide defines the entire fractal model you'll be working w
 ### High-Level Structure
 
 ```
-fractal-specs/
-  .fractal-specs-version          # Version indicator (currently "v7")
-  AGENTS.md                        # Agent behavior guidelines
-  fractal-specs-v7/                # Active v7 specification
-    fractal-spec-guide.md          # Core specification document
-    commands/                      # Reusable LLM commands
-    Spec-Template-v2.md            # Template for creating specs
-    folder-purity-lint-spec.md     # Linting tool specification
-    navigation-example.md          # Example navigation helper
-    v7-improvements-plan.md        # Ongoing improvements plan
-  stolen-commands-RPI/             # Legacy RPI workflow notes
+fractal-spec/
+  README.md
+  fractal-spec-guide.md          # Core specification document (version in frontmatter)
+  commands/                      # Reusable LLM commands
+  spec-template.md               # Template for creating specs
 ```
 
-### Fractal Specs Core Concept
+### Fractal Spec Core Concept
 
 **Every folder represents a thing.** Child folders are meaningful components of that thing. The structure repeats fractally at every level.
 
@@ -77,7 +70,7 @@ thing/
 
 ## Commands Available
 
-The `fractal-specs-v7/commands/` directory contains reusable LLM command specifications:
+The `fractal-spec/commands/` directory contains reusable LLM command specifications:
 
 - **`verify-requirements.md`** — Structured interrogation to extract verified Need section
 - **`verify-design.md`** — Structured interrogation to extract verified Design section
@@ -112,11 +105,9 @@ When invoked, follow each command's workflow precisely. They define step-by-step
 
 ## Special Files to Maintain
 
-**`.fractal-specs-version`** — Must contain current version (e.g., `v7`). LLMs read this first to know which rules to follow.
+**`fractal-spec-guide.md`** — Sections 1-9 are LLM-focused and must remain terse/token-optimized. Sections after "Do not read below this point" are human-focused and can be more verbose. Version lives in the frontmatter.
 
-**`fractal-spec-guide.md`** — Sections 1-9 are LLM-focused and must remain terse/token-optimized. Sections after "Do not read below this point" are human-focused and can be more verbose.
-
-**`Spec-Template-v2.md`** — Template with frontmatter for creating new specs. Keep consistent with guide.
+**`spec-template.md`** — Template with frontmatter for creating new specs. Keep consistent with guide.
 
 **Change logs** — Keep maximum 5 most recent entries in specs. For older history, refer to git.
 

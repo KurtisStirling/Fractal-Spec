@@ -90,23 +90,21 @@ Claude outputs:
 **Purpose**
 - …
 
-**Scope**
-- Includes: …
-- Excludes: …
-
 **Requirements / Rules**
 - R1 — …
 - R2 — …
 - …
-
-**Success Notes (optional)**
-- …
 ```
 
+**Optional subsections** (add if they clarify the Need):
+- **Scope** — What's included/excluded
+- **Success Notes** — How you'll know this works
+- Any other subsection that makes the Need clearer
+
 Requirements must be:
-- concise  
-- unambiguous  
-- independent of implementation  
+- concise
+- unambiguous
+- independent of implementation
 - phrased as **demand**, not design  
 
 ---

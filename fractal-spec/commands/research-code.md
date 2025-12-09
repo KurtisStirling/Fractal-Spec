@@ -1,4 +1,4 @@
-# research-code Command (Fractal Specs + Sub-Agents)
+# research-code Command (Fractal Spec + Sub-Agents)
 
 A command for Claude to investigate code and document **what exists today** using parallel sub-agents.  
 Claude must act purely as a **documentarian**, not a critic or designer.

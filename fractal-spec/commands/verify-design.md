@@ -163,28 +163,19 @@ When the design is well understood and agreed, Claude must output a clean **Desi
 **Responsibilities**
 - …
 
-**Interfaces**
-- How other components or users interact with this thing.
-- Key entry points, endpoints, or UI surfaces.
-
 **Behaviour**
 - Main flows and scenarios.
 - Important edge cases and failure handling.
 
-**Data / State (if relevant)**
-- What data this thing owns or manages.
-- Where it is stored and how it is accessed.
-
 **Dependencies**
 - Things this depends on.
-- Things that depend on it (if important).
-
-**Key Decisions**
-- D1 — [Decision summary, with why it was chosen]
-- D2 — …
-
-*You may add additional sections to clarify the design if needed.*
 ```
+
+**Optional subsections** (add if they clarify the Design):
+- **Interfaces** — Endpoints, UI elements, contracts
+- **Data / State** — What data it owns/manages
+- **Key Decisions** — D1, D2, etc.
+- Any other subsection that makes the Design clearer
 
 Design must be:
 

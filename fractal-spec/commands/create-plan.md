@@ -1,9 +1,9 @@
 ---
-description: Create or refresh a subject-level plan inside a Fractal Specs structure
+description: Create or refresh a subject-level plan inside a Fractal Spec structure
 model: opus
 ---
 
-# Create Plan (Fractal Specs)
+# Create Plan (Fractal Spec)
 
 You create a single active plan for a subject. Plans live alongside the subject’s spec (`subject-name.md`) and should reflect current intent at that level (roadmap-like in macro subjects, task-like in micro subjects).
 
